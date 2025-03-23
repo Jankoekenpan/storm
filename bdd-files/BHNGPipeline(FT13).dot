@@ -1,0 +1,189 @@
+digraph "DD" {
+graph [dpi = 300];
+center = true;
+edge [dir = forward];
+root [style=invis];
+root -> 8388878 [style=solid dir=both arrowtail=none];
+8388878 [label="0"];
+8388877 [label="1"];
+8388876 [label="2"];
+8388875 [label="3"];
+8388874 [label="4"];
+8388873 [label="5"];
+8388872 [label="6"];
+8388871 [label="7"];
+8388870 [label="8"];
+8388869 [label="9"];
+8388868 [label="10"];
+8388867 [label="11"];
+8388866 [label="12"];
+8388865 [label="13"];
+8388864 [label="14"];
+8388863 [label="15"];
+8388862 [label="16"];
+8388861 [label="17"];
+8388860 [label="18"];
+8388859 [label="19"];
+8388858 [label="20"];
+8388857 [label="21"];
+8388856 [label="22"];
+8388855 [label="23"];
+8388854 [label="24"];
+8388853 [label="25"];
+8388852 [label="26"];
+8388851 [label="27"];
+8388850 [label="28"];
+8388849 [label="29"];
+8388848 [label="30"];
+8388847 [label="31"];
+8388846 [label="32"];
+8388845 [label="33"];
+8388844 [label="34"];
+8388843 [label="35"];
+8388842 [label="36"];
+8388841 [label="37"];
+8388840 [label="38"];
+8388839 [label="39"];
+8388838 [label="40"];
+8388837 [label="41"];
+8388836 [label="42"];
+8388835 [label="43"];
+8388652 [label="44"];
+0 [shape=box, style=filled, label="F"];
+8388652 -> 0 [style=dashed];
+8388652 -> 0 [style=solid dir=both arrowtail=dot];
+8388835 -> 8388652 [style=dashed];
+8388835 -> 0 [style=solid dir=both arrowtail=dot];
+8388836 -> 8388835 [style=dashed];
+8388836 -> 0 [style=solid dir=both arrowtail=dot];
+8388837 -> 8388836 [style=dashed];
+8388837 -> 0 [style=solid dir=both arrowtail=dot];
+8388838 -> 8388837 [style=dashed];
+8388838 -> 0 [style=solid dir=both arrowtail=dot];
+8388839 -> 8388838 [style=dashed];
+8388839 -> 0 [style=solid dir=both arrowtail=dot];
+8388840 -> 8388839 [style=dashed];
+8388840 -> 0 [style=solid dir=both arrowtail=dot];
+8388841 -> 8388840 [style=dashed];
+8388841 -> 0 [style=solid dir=both arrowtail=dot];
+8388842 -> 8388841 [style=dashed];
+8388842 -> 0 [style=solid dir=both arrowtail=dot];
+8388843 -> 8388842 [style=dashed];
+8388843 -> 0 [style=solid dir=both arrowtail=dot];
+8388844 -> 8388843 [style=dashed];
+8388844 -> 0 [style=solid dir=both arrowtail=dot];
+8388845 -> 8388844 [style=dashed];
+8388845 -> 0 [style=solid dir=both arrowtail=dot];
+8388846 -> 8388845 [style=dashed];
+8388846 -> 0 [style=solid dir=both arrowtail=dot];
+8388847 -> 8388846 [style=dashed];
+8388847 -> 0 [style=solid dir=both arrowtail=dot];
+8388848 -> 8388847 [style=dashed];
+8388848 -> 0 [style=solid dir=both arrowtail=dot];
+8388849 -> 8388848 [style=dashed];
+8388849 -> 0 [style=solid dir=both arrowtail=dot];
+8388850 -> 8388849 [style=dashed];
+8388850 -> 0 [style=solid dir=both arrowtail=dot];
+8388851 -> 8388850 [style=dashed];
+8388851 -> 0 [style=solid dir=both arrowtail=dot];
+8388852 -> 8388851 [style=dashed];
+8388852 -> 0 [style=solid dir=both arrowtail=dot];
+8388853 -> 8388852 [style=dashed];
+8388853 -> 0 [style=solid dir=both arrowtail=dot];
+8388854 -> 8388853 [style=dashed];
+8388854 -> 0 [style=solid dir=both arrowtail=dot];
+8388855 -> 8388854 [style=dashed];
+8388855 -> 0 [style=solid dir=both arrowtail=dot];
+8388856 -> 8388855 [style=dashed];
+8388856 -> 0 [style=solid dir=both arrowtail=dot];
+8388857 -> 8388856 [style=dashed];
+8388857 -> 0 [style=solid dir=both arrowtail=dot];
+8388858 -> 8388857 [style=dashed];
+8388858 -> 0 [style=solid dir=both arrowtail=dot];
+8388859 -> 8388858 [style=dashed];
+8388859 -> 0 [style=solid dir=both arrowtail=dot];
+8388860 -> 8388859 [style=dashed];
+8388860 -> 0 [style=solid dir=both arrowtail=dot];
+8388861 -> 8388860 [style=dashed];
+8388861 -> 0 [style=solid dir=both arrowtail=dot];
+8388862 -> 8388861 [style=dashed];
+8388862 -> 0 [style=solid dir=both arrowtail=dot];
+8388863 -> 8388862 [style=dashed];
+8388863 -> 0 [style=solid dir=both arrowtail=dot];
+8388864 -> 8388863 [style=dashed];
+8388864 -> 0 [style=solid dir=both arrowtail=dot];
+8388865 -> 8388864 [style=dashed];
+8388865 -> 0 [style=solid dir=both arrowtail=dot];
+8388866 -> 8388865 [style=dashed];
+8388866 -> 0 [style=solid dir=both arrowtail=dot];
+8388867 -> 8388866 [style=dashed];
+8388867 -> 0 [style=solid dir=both arrowtail=dot];
+8388868 -> 8388867 [style=dashed];
+8388868 -> 0 [style=solid dir=both arrowtail=dot];
+8388869 -> 8388868 [style=dashed];
+8388869 -> 0 [style=solid dir=both arrowtail=dot];
+8388870 -> 8388869 [style=dashed];
+8388870 -> 0 [style=solid dir=both arrowtail=dot];
+8388871 -> 8388870 [style=dashed];
+8388871 -> 0 [style=solid dir=both arrowtail=dot];
+8388872 -> 8388871 [style=dashed];
+8388872 -> 0 [style=solid dir=both arrowtail=dot];
+8388873 -> 8388872 [style=dashed];
+8388873 -> 0 [style=solid dir=both arrowtail=dot];
+8388874 -> 8388873 [style=dashed];
+8388874 -> 0 [style=solid dir=both arrowtail=dot];
+8388875 -> 8388874 [style=dashed];
+8388875 -> 0 [style=solid dir=both arrowtail=dot];
+8388876 -> 8388875 [style=dashed];
+8388876 -> 0 [style=solid dir=both arrowtail=dot];
+8388877 -> 8388876 [style=dashed];
+8388877 -> 0 [style=solid dir=both arrowtail=dot];
+8388878 -> 8388877 [style=dashed];
+8388878 -> 0 [style=solid dir=both arrowtail=dot];
+}
+// Mapping from BDD nodes to DFT BEs as follows: 
+// 0 -> X1
+// 1 -> X2
+// 2 -> X3
+// 3 -> X4
+// 4 -> X5
+// 5 -> X6
+// 6 -> X7
+// 7 -> X8
+// 8 -> X9
+// 9 -> X10
+// 10 -> X11
+// 11 -> X12
+// 12 -> X13
+// 13 -> X14
+// 14 -> X15
+// 15 -> X16
+// 16 -> X17
+// 17 -> X18
+// 18 -> X19
+// 19 -> X20
+// 20 -> X21
+// 21 -> X22
+// 22 -> X23
+// 23 -> X24
+// 24 -> X25
+// 25 -> X26
+// 26 -> X27
+// 27 -> X28
+// 28 -> X29
+// 29 -> X30
+// 30 -> X31
+// 31 -> X32
+// 32 -> X33
+// 33 -> X34
+// 34 -> X35
+// 35 -> X36
+// 36 -> X37
+// 37 -> X38
+// 38 -> X44
+// 39 -> X45
+// 40 -> X39
+// 41 -> X40
+// 42 -> X41
+// 43 -> X42
+// 44 -> X43

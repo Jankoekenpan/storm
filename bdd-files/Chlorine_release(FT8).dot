@@ -1,0 +1,117 @@
+digraph "DD" {
+graph [dpi = 300];
+center = true;
+edge [dir = forward];
+root [style=invis];
+root -> 112 [style=solid dir=both arrowtail=none];
+112 [label="0"];
+111 [label="1"];
+110 [label="2"];
+109 [label="3"];
+108 [label="4"];
+107 [label="5"];
+106 [label="6"];
+105 [label="7"];
+33554435 [label="20"];
+104 [label="21"];
+103 [label="22"];
+102 [label="23"];
+101 [label="24"];
+100 [label="25"];
+28 [label="26"];
+0 [shape=box, style=filled, label="F"];
+28 -> 0 [style=dashed];
+28 -> 0 [style=solid dir=both arrowtail=dot];
+100 -> 28 [style=dashed];
+100 -> 0 [style=solid dir=both arrowtail=dot];
+101 -> 100 [style=dashed];
+101 -> 0 [style=solid dir=both arrowtail=dot];
+102 -> 101 [style=dashed];
+102 -> 0 [style=solid dir=both arrowtail=dot];
+103 -> 102 [style=dashed];
+103 -> 0 [style=solid dir=both arrowtail=dot];
+104 -> 103 [style=dashed];
+104 -> 0 [style=solid dir=both arrowtail=dot];
+33554435 -> 104 [style=dashed];
+33554435 -> 0 [style=solid dir=both arrowtail=dot];
+25165830 [label="8"];
+41943053 [label="9"];
+33554439 [label="10"];
+33554438 [label="11"];
+25165829 [label="12"];
+33554437 [label="13"];
+41943052 [label="14"];
+41943051 [label="15"];
+25165828 [label="16"];
+41943050 [label="17"];
+41943049 [label="18"];
+33554436 [label="19"];
+33554436 -> 33554435 [style=dashed];
+33554436 -> 0 [style=solid dir=both arrowtail=dot];
+41943049 -> 33554436 [style=dashed];
+41943049 -> 0 [style=solid dir=both arrowtail=dot];
+41943050 -> 41943049 [style=dashed];
+41943050 -> 0 [style=solid dir=both arrowtail=dot];
+25165828 -> 41943050 [style=dashed];
+25165828 -> 0 [style=solid dir=both arrowtail=dot];
+41943051 -> 25165828 [style=dashed];
+41943051 -> 0 [style=solid dir=both arrowtail=dot];
+41943052 -> 41943051 [style=dashed];
+41943052 -> 0 [style=solid dir=both arrowtail=dot];
+33554437 -> 41943052 [style=dashed];
+33554437 -> 0 [style=solid dir=both arrowtail=dot];
+25165829 -> 33554437 [style=dashed];
+25165829 -> 0 [style=solid dir=both arrowtail=dot];
+33554438 -> 25165829 [style=dashed];
+33554438 -> 0 [style=solid dir=both arrowtail=dot];
+33554439 -> 33554438 [style=dashed];
+33554439 -> 0 [style=solid dir=both arrowtail=dot];
+41943053 -> 33554439 [style=dashed];
+41943053 -> 0 [style=solid dir=both arrowtail=dot];
+25165830 -> 41943053 [style=dashed];
+25165830 -> 0 [style=solid dir=both arrowtail=dot];
+105 -> 33554435 [style=dashed];
+105 -> 25165830 [style=solid dir=both arrowtail=none];
+106 -> 105 [style=dashed];
+106 -> 25165830 [style=solid dir=both arrowtail=none];
+107 -> 106 [style=dashed];
+107 -> 25165830 [style=solid dir=both arrowtail=none];
+108 -> 107 [style=dashed];
+108 -> 0 [style=solid dir=both arrowtail=dot];
+109 -> 108 [style=dashed];
+109 -> 0 [style=solid dir=both arrowtail=dot];
+110 -> 109 [style=dashed];
+110 -> 0 [style=solid dir=both arrowtail=dot];
+111 -> 110 [style=dashed];
+111 -> 0 [style=solid dir=both arrowtail=dot];
+112 -> 111 [style=dashed];
+112 -> 0 [style=solid dir=both arrowtail=dot];
+}
+// Mapping from BDD nodes to DFT BEs as follows: 
+// 0 -> B1
+// 1 -> B2
+// 2 -> B4
+// 3 -> B5
+// 4 -> B10
+// 5 -> B7
+// 6 -> B8
+// 7 -> B3
+// 8 -> B9
+// 9 -> B16
+// 10 -> B17
+// 11 -> B18
+// 12 -> B19
+// 13 -> B26
+// 14 -> B27
+// 15 -> B14
+// 16 -> B15
+// 17 -> B11
+// 18 -> B12
+// 19 -> B13
+// 20 -> B6
+// 21 -> B25
+// 22 -> B21
+// 23 -> B22
+// 24 -> B23
+// 25 -> B20
+// 26 -> B24

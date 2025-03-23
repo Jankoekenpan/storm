@@ -1,0 +1,81 @@
+digraph "DD" {
+graph [dpi = 300];
+center = true;
+edge [dir = forward];
+root [style=invis];
+root -> 8388672 [style=solid dir=both arrowtail=none];
+8388672 [label="0"];
+25165826 [label="3"];
+8388671 [label="4"];
+25165825 [label="5"];
+58720260 [label="6"];
+58720259 [label="7"];
+8388670 [label="8"];
+8388669 [label="9"];
+8388668 [label="10"];
+8388667 [label="11"];
+8388666 [label="12"];
+58720257 [label="14"];
+8388665 [label="16"];
+8388625 [label="17"];
+0 [shape=box, style=filled, label="F"];
+8388625 -> 0 [style=dashed];
+8388625 -> 0 [style=solid dir=both arrowtail=dot];
+8388665 -> 8388625 [style=dashed];
+8388665 -> 0 [style=solid dir=both arrowtail=dot];
+5 [label="15"];
+5 -> 8388665 [style=dashed];
+5 -> 0 [style=solid dir=both arrowtail=dot];
+58720257 -> 8388665 [style=dashed];
+58720257 -> 5 [style=solid dir=both arrowtail=none];
+58720258 [label="13"];
+58720258 -> 58720257 [style=dashed];
+58720258 -> 0 [style=solid dir=both arrowtail=dot];
+8388666 -> 58720257 [style=dashed];
+8388666 -> 58720258 [style=solid dir=both arrowtail=none];
+8388667 -> 8388666 [style=dashed];
+8388667 -> 0 [style=solid dir=both arrowtail=dot];
+8388668 -> 8388667 [style=dashed];
+8388668 -> 0 [style=solid dir=both arrowtail=dot];
+8388669 -> 8388668 [style=dashed];
+8388669 -> 0 [style=solid dir=both arrowtail=dot];
+8388670 -> 8388669 [style=dashed];
+8388670 -> 0 [style=solid dir=both arrowtail=dot];
+58720259 -> 8388670 [style=dashed];
+58720259 -> 0 [style=solid dir=both arrowtail=dot];
+58720260 -> 58720259 [style=dashed];
+58720260 -> 0 [style=solid dir=both arrowtail=dot];
+25165825 -> 58720260 [style=dashed];
+25165825 -> 0 [style=solid dir=both arrowtail=dot];
+8388671 -> 25165825 [style=dashed];
+8388671 -> 0 [style=solid dir=both arrowtail=dot];
+25165826 -> 8388671 [style=dashed];
+25165826 -> 0 [style=solid dir=both arrowtail=dot];
+58720261 [label="1"];
+25165827 [label="2"];
+25165827 -> 25165826 [style=dashed];
+25165827 -> 0 [style=solid dir=both arrowtail=dot];
+58720261 -> 25165826 [style=dashed];
+58720261 -> 25165827 [style=solid dir=both arrowtail=none];
+8388672 -> 25165826 [style=dashed];
+8388672 -> 58720261 [style=solid dir=both arrowtail=none];
+}
+// Mapping from BDD nodes to DFT BEs as follows: 
+// 0 -> 10
+// 1 -> 11
+// 2 -> 12
+// 3 -> 13
+// 4 -> 14
+// 5 -> 15
+// 6 -> 16
+// 7 -> 17
+// 8 -> 18
+// 9 -> 19
+// 10 -> 20
+// 11 -> 3
+// 12 -> 21
+// 13 -> 22
+// 14 -> 23
+// 15 -> 24
+// 16 -> 25
+// 17 -> 26

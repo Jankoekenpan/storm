@@ -1,0 +1,101 @@
+digraph "DD" {
+graph [dpi = 300];
+center = true;
+edge [dir = forward];
+root [style=invis];
+root -> 95 [style=solid dir=both arrowtail=none];
+95 [label="0"];
+94 [label="1"];
+93 [label="2"];
+92 [label="3"];
+91 [label="4"];
+90 [label="5"];
+89 [label="6"];
+88 [label="7"];
+87 [label="8"];
+86 [label="9"];
+85 [label="10"];
+84 [label="11"];
+83 [label="14"];
+25165824 [label="15"];
+16777216 [label="16"];
+82 [label="17"];
+81 [label="18"];
+80 [label="19"];
+79 [label="20"];
+78 [label="21"];
+24 [label="22"];
+0 [shape=box, style=filled, label="F"];
+24 -> 0 [style=dashed];
+24 -> 0 [style=solid dir=both arrowtail=dot];
+78 -> 24 [style=dashed];
+78 -> 0 [style=solid dir=both arrowtail=dot];
+79 -> 78 [style=dashed];
+79 -> 0 [style=solid dir=both arrowtail=dot];
+80 -> 79 [style=dashed];
+80 -> 0 [style=solid dir=both arrowtail=dot];
+81 -> 80 [style=dashed];
+81 -> 0 [style=solid dir=both arrowtail=dot];
+82 -> 81 [style=dashed];
+82 -> 0 [style=solid dir=both arrowtail=dot];
+16777216 -> 82 [style=dashed];
+16777216 -> 0 [style=solid dir=both arrowtail=dot];
+25165824 -> 16777216 [style=dashed];
+25165824 -> 0 [style=solid dir=both arrowtail=dot];
+83 -> 25165824 [style=dashed];
+83 -> 0 [style=solid dir=both arrowtail=dot];
+16777217 [label="12"];
+41943040 [label="13"];
+41943040 -> 83 [style=dashed];
+41943040 -> 0 [style=solid dir=both arrowtail=dot];
+16777217 -> 41943040 [style=dashed];
+16777217 -> 0 [style=solid dir=both arrowtail=dot];
+84 -> 83 [style=dashed];
+84 -> 16777217 [style=solid dir=both arrowtail=none];
+85 -> 84 [style=dashed];
+85 -> 16777217 [style=solid dir=both arrowtail=none];
+86 -> 85 [style=dashed];
+86 -> 16777217 [style=solid dir=both arrowtail=none];
+87 -> 86 [style=dashed];
+87 -> 0 [style=solid dir=both arrowtail=dot];
+88 -> 87 [style=dashed];
+88 -> 0 [style=solid dir=both arrowtail=dot];
+89 -> 88 [style=dashed];
+89 -> 0 [style=solid dir=both arrowtail=dot];
+90 -> 89 [style=dashed];
+90 -> 0 [style=solid dir=both arrowtail=dot];
+91 -> 90 [style=dashed];
+91 -> 0 [style=solid dir=both arrowtail=dot];
+92 -> 91 [style=dashed];
+92 -> 0 [style=solid dir=both arrowtail=dot];
+93 -> 92 [style=dashed];
+93 -> 0 [style=solid dir=both arrowtail=dot];
+94 -> 93 [style=dashed];
+94 -> 0 [style=solid dir=both arrowtail=dot];
+95 -> 94 [style=dashed];
+95 -> 0 [style=solid dir=both arrowtail=dot];
+}
+// Mapping from BDD nodes to DFT BEs as follows: 
+// 0 -> Not_removing_the_corrosion_gas_and_impurities
+// 1 -> Not_adding_corrosion_inhibitor
+// 2 -> Not_pigging_regularly
+// 3 -> Anticorrosive_coating_failure
+// 4 -> Cathodic_protection_failure
+// 5 -> Dropped_objects_hit
+// 6 -> Anchoring_work
+// 7 -> Fishing_gear_interaction
+// 8 -> Offshore_construction
+// 9 -> Design_burial_depth_is_not_enough
+// 10 -> Operation_of_burial_depth_is_not_enough
+// 11 -> Failure_of_treatment_timely
+// 12 -> Strong_current_and_wave
+// 13 -> Seabed_soil_are_eroded_easily
+// 14 -> Subsea_earthquake
+// 15 -> Seabed_movement
+// 16 -> Typhoon
+// 17 -> Design_defect_of_material
+// 18 -> Construction_defect_of_material
+// 19 -> Design_defect_of_weld-seam
+// 20 -> Construction_defect_of_weld-seam
+// 21 -> Auxiliaries_aging
+// 22 -> Design_defect_of_auxiliaries

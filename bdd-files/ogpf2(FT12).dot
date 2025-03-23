@@ -1,0 +1,236 @@
+digraph "DD" {
+graph [dpi = 300];
+center = true;
+edge [dir = forward];
+root [style=invis];
+root -> 16777370 [style=solid dir=both arrowtail=none];
+16777370 [label="0"];
+50331686 [label="9"];
+25165874 [label="14"];
+16777367 [label="18"];
+58720301 [label="19"];
+41943069 [label="20"];
+31 [label="21"];
+58720300 [label="22"];
+30 [label="23"];
+50331680 [label="24"];
+50331679 [label="25"];
+33554458 [label="26"];
+50331678 [label="27"];
+16777366 [label="28"];
+25165869 [label="29"];
+25165868 [label="35"];
+25165867 [label="36"];
+41943068 [label="37"];
+25165866 [label="38"];
+25165865 [label="39"];
+16777365 [label="40"];
+16777364 [label="41"];
+16777363 [label="42"];
+16777259 [label="43"];
+0 [shape=box, style=filled, label="F"];
+16777259 -> 0 [style=dashed];
+16777259 -> 0 [style=solid dir=both arrowtail=dot];
+16777363 -> 16777259 [style=dashed];
+16777363 -> 0 [style=solid dir=both arrowtail=dot];
+16777364 -> 16777363 [style=dashed];
+16777364 -> 0 [style=solid dir=both arrowtail=dot];
+16777365 -> 16777364 [style=dashed];
+16777365 -> 0 [style=solid dir=both arrowtail=dot];
+25165865 -> 16777365 [style=dashed];
+25165865 -> 0 [style=solid dir=both arrowtail=dot];
+25165866 -> 25165865 [style=dashed];
+25165866 -> 0 [style=solid dir=both arrowtail=dot];
+41943068 -> 25165866 [style=dashed];
+41943068 -> 0 [style=solid dir=both arrowtail=dot];
+25165867 -> 41943068 [style=dashed];
+25165867 -> 0 [style=solid dir=both arrowtail=dot];
+25165868 -> 25165867 [style=dashed];
+25165868 -> 0 [style=solid dir=both arrowtail=dot];
+25165869 -> 25165868 [style=dashed];
+25165869 -> 0 [style=solid dir=both arrowtail=dot];
+16777366 -> 25165869 [style=dashed];
+16777366 -> 0 [style=solid dir=both arrowtail=dot];
+50331678 -> 16777366 [style=dashed];
+50331678 -> 0 [style=solid dir=both arrowtail=dot];
+33554458 -> 50331678 [style=dashed];
+33554458 -> 0 [style=solid dir=both arrowtail=dot];
+50331679 -> 33554458 [style=dashed];
+50331679 -> 0 [style=solid dir=both arrowtail=dot];
+50331680 -> 50331679 [style=dashed];
+50331680 -> 0 [style=solid dir=both arrowtail=dot];
+30 -> 50331680 [style=dashed];
+30 -> 0 [style=solid dir=both arrowtail=dot];
+58720300 -> 30 [style=dashed];
+58720300 -> 0 [style=solid dir=both arrowtail=dot];
+31 -> 58720300 [style=dashed];
+31 -> 0 [style=solid dir=both arrowtail=dot];
+41943069 -> 31 [style=dashed];
+41943069 -> 0 [style=solid dir=both arrowtail=dot];
+58720301 -> 41943069 [style=dashed];
+58720301 -> 0 [style=solid dir=both arrowtail=dot];
+16777367 -> 58720301 [style=dashed];
+16777367 -> 0 [style=solid dir=both arrowtail=dot];
+16777369 [label="15"];
+35 [label="16"];
+41943072 [label="17"];
+8388637 [label="18"];
+50331682 [label="19"];
+25165873 [label="20"];
+34 [label="21"];
+41943071 [label="22"];
+33 [label="23"];
+41943070 [label="24"];
+58720303 [label="25"];
+32 [label="26"];
+58720302 [label="27"];
+8388636 [label="28"];
+8388635 [label="29"];
+25165872 [label="30"];
+25165871 [label="31"];
+25165870 [label="32"];
+50331681 [label="33"];
+8388634 [label="34"];
+8388634 -> 25165868 [style=dashed];
+8388634 -> 0 [style=solid dir=both arrowtail=dot];
+50331681 -> 8388634 [style=dashed];
+50331681 -> 0 [style=solid dir=both arrowtail=dot];
+25165870 -> 50331681 [style=dashed];
+25165870 -> 0 [style=solid dir=both arrowtail=dot];
+25165871 -> 25165870 [style=dashed];
+25165871 -> 0 [style=solid dir=both arrowtail=dot];
+25165872 -> 25165871 [style=dashed];
+25165872 -> 0 [style=solid dir=both arrowtail=dot];
+8388635 -> 25165872 [style=dashed];
+8388635 -> 0 [style=solid dir=both arrowtail=dot];
+8388636 -> 8388635 [style=dashed];
+8388636 -> 0 [style=solid dir=both arrowtail=dot];
+58720302 -> 8388636 [style=dashed];
+58720302 -> 0 [style=solid dir=both arrowtail=dot];
+32 -> 58720302 [style=dashed];
+32 -> 0 [style=solid dir=both arrowtail=dot];
+58720303 -> 32 [style=dashed];
+58720303 -> 0 [style=solid dir=both arrowtail=dot];
+41943070 -> 58720303 [style=dashed];
+41943070 -> 0 [style=solid dir=both arrowtail=dot];
+33 -> 41943070 [style=dashed];
+33 -> 0 [style=solid dir=both arrowtail=dot];
+41943071 -> 33 [style=dashed];
+41943071 -> 0 [style=solid dir=both arrowtail=dot];
+34 -> 41943071 [style=dashed];
+34 -> 0 [style=solid dir=both arrowtail=dot];
+25165873 -> 34 [style=dashed];
+25165873 -> 0 [style=solid dir=both arrowtail=dot];
+50331682 -> 25165873 [style=dashed];
+50331682 -> 0 [style=solid dir=both arrowtail=dot];
+8388637 -> 50331682 [style=dashed];
+8388637 -> 0 [style=solid dir=both arrowtail=dot];
+41943072 -> 16777367 [style=dashed];
+41943072 -> 8388637 [style=solid dir=both arrowtail=none];
+35 -> 41943072 [style=dashed];
+35 -> 8388637 [style=solid dir=both arrowtail=none];
+16777369 -> 35 [style=dashed];
+16777369 -> 8388637 [style=solid dir=both arrowtail=none];
+25165874 -> 16777367 [style=dashed];
+25165874 -> 16777369 [style=solid dir=both arrowtail=none];
+50331685 [label="10"];
+50331684 [label="11"];
+50331683 [label="12"];
+25165875 [label="13"];
+16777368 [label="14"];
+33554461 [label="15"];
+33554460 [label="16"];
+33554459 [label="17"];
+33554459 -> 16777367 [style=dashed];
+33554459 -> 0 [style=solid dir=both arrowtail=dot];
+33554460 -> 33554459 [style=dashed];
+33554460 -> 0 [style=solid dir=both arrowtail=dot];
+33554461 -> 33554460 [style=dashed];
+33554461 -> 0 [style=solid dir=both arrowtail=dot];
+16777368 -> 16777367 [style=dashed];
+16777368 -> 33554461 [style=solid dir=both arrowtail=none];
+25165875 -> 25165874 [style=dashed];
+25165875 -> 16777368 [style=solid dir=both arrowtail=none];
+50331683 -> 25165875 [style=dashed];
+50331683 -> 16777368 [style=solid dir=both arrowtail=none];
+50331684 -> 50331683 [style=dashed];
+50331684 -> 16777368 [style=solid dir=both arrowtail=none];
+50331685 -> 50331684 [style=dashed];
+50331685 -> 16777368 [style=solid dir=both arrowtail=none];
+50331686 -> 25165874 [style=dashed];
+50331686 -> 50331685 [style=solid dir=both arrowtail=none];
+41943073 [label="1"];
+50331693 [label="2"];
+50331692 [label="3"];
+50331691 [label="4"];
+50331690 [label="5"];
+50331689 [label="6"];
+50331688 [label="7"];
+50331687 [label="8"];
+33554462 [label="9"];
+33554462 -> 25165874 [style=dashed];
+33554462 -> 0 [style=solid dir=both arrowtail=dot];
+50331687 -> 50331686 [style=dashed];
+50331687 -> 33554462 [style=solid dir=both arrowtail=none];
+50331688 -> 50331687 [style=dashed];
+50331688 -> 33554462 [style=solid dir=both arrowtail=none];
+50331689 -> 50331688 [style=dashed];
+50331689 -> 33554462 [style=solid dir=both arrowtail=none];
+50331690 -> 50331689 [style=dashed];
+50331690 -> 33554462 [style=solid dir=both arrowtail=none];
+50331691 -> 50331690 [style=dashed];
+50331691 -> 33554462 [style=solid dir=both arrowtail=none];
+50331692 -> 50331691 [style=dashed];
+50331692 -> 33554462 [style=solid dir=both arrowtail=none];
+50331693 -> 50331692 [style=dashed];
+50331693 -> 33554462 [style=solid dir=both arrowtail=none];
+41943073 -> 50331686 [style=dashed];
+41943073 -> 50331693 [style=solid dir=both arrowtail=none];
+16777370 -> 50331686 [style=dashed];
+16777370 -> 41943073 [style=solid dir=both arrowtail=none];
+}
+// Mapping from BDD nodes to DFT BEs as follows: 
+// 0 -> SystemOfCP
+// 1 -> SystemOfCoating24
+// 2 -> HightTemperature
+// 3 -> LowResistance
+// 4 -> HighWaterRatio
+// 5 -> HighSalt
+// 6 -> LowPH
+// 7 -> Bacteria
+// 8 -> ElectricalInterference
+// 9 -> IllAnti-corrosion
+// 10 -> SystemOfInhibitor
+// 11 -> SystemOfCoating34
+// 12 -> BadClearPipe
+// 13 -> Debonding
+// 14 -> WithWater
+// 15 -> H2S
+// 16 -> O2
+// 17 -> CO2
+// 18 -> ConstructionDefect
+// 19 -> CoarseGrain
+// 20 -> BadMicrostructure
+// 21 -> MuchInclusion
+// 22 -> BadInstallation
+// 23 -> BadWeld
+// 24 -> BadGroove
+// 25 -> MechanicalDamage
+// 26 -> PartiesIgnoreSignage
+// 27 -> ImplicitSignage
+// 28 -> Sabotage
+// 29 -> Overload
+// 30 -> StressConcentration
+// 31 -> ResidualStress
+// 32 -> LargeInternalStress
+// 33 -> PressureSurge
+// 34 -> ExternalLoad
+// 35 -> QualityOfWorker
+// 36 -> SCADA
+// 37 -> Equipment
+// 38 -> Apparatus
+// 39 -> UnreasonableStrength
+// 40 -> UnsuitableMaterial
+// 41 -> Earthquake
+// 42 -> Flood
+// 43 -> Subsidence

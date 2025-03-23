@@ -1,0 +1,97 @@
+digraph "DD" {
+graph [dpi = 300];
+center = true;
+edge [dir = forward];
+root [style=invis];
+root -> 8388693 [style=solid dir=both arrowtail=none];
+8388693 [label="0"];
+8388692 [label="1"];
+8388691 [label="2"];
+8388690 [label="3"];
+8388689 [label="4"];
+8388688 [label="5"];
+8388687 [label="6"];
+8388686 [label="7"];
+8388685 [label="8"];
+8388684 [label="9"];
+8388683 [label="10"];
+8388682 [label="11"];
+8388681 [label="12"];
+8388680 [label="13"];
+8388679 [label="14"];
+8388678 [label="15"];
+8388677 [label="16"];
+4 [label="18"];
+3 [label="19"];
+8388676 [label="20"];
+8388629 [label="21"];
+0 [shape=box, style=filled, label="F"];
+8388629 -> 0 [style=dashed];
+8388629 -> 0 [style=solid dir=both arrowtail=dot];
+8388676 -> 8388629 [style=dashed];
+8388676 -> 0 [style=solid dir=both arrowtail=dot];
+3 -> 8388676 [style=dashed];
+3 -> 0 [style=solid dir=both arrowtail=dot];
+4 -> 3 [style=dashed];
+4 -> 0 [style=solid dir=both arrowtail=dot];
+5 [label="17"];
+5 -> 4 [style=dashed];
+5 -> 0 [style=solid dir=both arrowtail=dot];
+8388677 -> 4 [style=dashed];
+8388677 -> 5 [style=solid dir=both arrowtail=none];
+8388678 -> 8388677 [style=dashed];
+8388678 -> 0 [style=solid dir=both arrowtail=dot];
+8388679 -> 8388678 [style=dashed];
+8388679 -> 0 [style=solid dir=both arrowtail=dot];
+8388680 -> 8388679 [style=dashed];
+8388680 -> 0 [style=solid dir=both arrowtail=dot];
+8388681 -> 8388680 [style=dashed];
+8388681 -> 0 [style=solid dir=both arrowtail=dot];
+8388682 -> 8388681 [style=dashed];
+8388682 -> 0 [style=solid dir=both arrowtail=dot];
+8388683 -> 8388682 [style=dashed];
+8388683 -> 0 [style=solid dir=both arrowtail=dot];
+8388684 -> 8388683 [style=dashed];
+8388684 -> 0 [style=solid dir=both arrowtail=dot];
+8388685 -> 8388684 [style=dashed];
+8388685 -> 0 [style=solid dir=both arrowtail=dot];
+8388686 -> 8388685 [style=dashed];
+8388686 -> 0 [style=solid dir=both arrowtail=dot];
+8388687 -> 8388686 [style=dashed];
+8388687 -> 0 [style=solid dir=both arrowtail=dot];
+8388688 -> 8388687 [style=dashed];
+8388688 -> 0 [style=solid dir=both arrowtail=dot];
+8388689 -> 8388688 [style=dashed];
+8388689 -> 0 [style=solid dir=both arrowtail=dot];
+8388690 -> 8388689 [style=dashed];
+8388690 -> 0 [style=solid dir=both arrowtail=dot];
+8388691 -> 8388690 [style=dashed];
+8388691 -> 0 [style=solid dir=both arrowtail=dot];
+8388692 -> 8388691 [style=dashed];
+8388692 -> 0 [style=solid dir=both arrowtail=dot];
+8388693 -> 8388692 [style=dashed];
+8388693 -> 0 [style=solid dir=both arrowtail=dot];
+}
+// Mapping from BDD nodes to DFT BEs as follows: 
+// 0 -> X1_1
+// 1 -> X1_2
+// 2 -> X1_3
+// 3 -> X2_1_1
+// 4 -> X2_1_2
+// 5 -> X2_2_1
+// 6 -> X2_2_2
+// 7 -> X2_3
+// 8 -> X3_1
+// 9 -> X3_2
+// 10 -> X3_3
+// 11 -> X4_1_1
+// 12 -> X4_1_2
+// 13 -> X4_1_3
+// 14 -> X4_2_1
+// 15 -> X4_2_2
+// 16 -> X5_1_1
+// 17 -> X5_1_2
+// 18 -> X5_2_1
+// 19 -> X5_2_2
+// 20 -> X5_3_1
+// 21 -> X5_3_2

@@ -2,6 +2,8 @@
 
 #include <memory>
 #include <vector>
+#include <chrono>   // for timing SFT->BDD conversion
+#include <iostream> // for timing SFT->BDD conversion
 
 #include "storm-dft/storage/DFT.h"
 #include "storm-dft/storage/SylvanBddManager.h"
@@ -43,10 +45,22 @@ class SftToBddTransformator {
      * \return The translated Bdd of the toplevel event
      */
     Bdd const& transformTopLevel() {
+        // Time BDD conversion start
+        auto begin_timestamp = std::chrono::high_resolution_clock::now();
+
         auto const tlName{dft->getTopLevelElement()->name()};
         if (relevantEventBdds.empty()) {
             relevantEventBdds[tlName] = translate(dft->getTopLevelElement());
         }
+
+        // Time BDD conversion end
+        auto end_timestamp = std::chrono::high_resolution_clock::now();
+
+        // Output conversion time difference
+        std::chrono::duration<double, std::milli> duration = end_timestamp - begin_timestamp;
+        std::cout << "SFT->BDD conversion time: " << duration.count() << " ms." << std::endl;
+
+
         // else relevantEventBdds is not empty and we maintain the invariant
         // that the toplevel event is in there
         STORM_LOG_ASSERT(relevantEventBdds.count(tlName) == 1, "Not all relevantEvents where transformed into BDDs.");

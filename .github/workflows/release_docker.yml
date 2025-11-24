@@ -30,7 +30,7 @@ jobs:
             }
     steps:
       - name: Git clone
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Build storm from Dockerfile
         run: |
           docker build -t movesrwth/storm:${{ github.event.inputs.tag }}${{ matrix.buildType.suffix }} . \
